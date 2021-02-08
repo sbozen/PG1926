@@ -7,7 +7,7 @@
 			$sum+=$i
 			if ($sum==$num) {
 				$msg= "<script>alert('This number a perfect number')</script>";
-				echo "msg";
+				echo msg;
 			}
 
 		}
