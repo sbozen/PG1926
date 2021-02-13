@@ -54,6 +54,9 @@ function dijitalSaat() {
             document.getElementById("yetiskin").style.backgroundColor = "green";
             document.getElementById("yasli").style.backgroundColor = "red";
             document.getElementById("cocuk").style.backgroundColor = "red";
+            document.getElementById("yasli").innerHTML = "<b>ÇIKAMAZSINIZ</b>";
+            document.getElementById("cocuk").innerHTML = "<b>ÇIKAMAZSINIZ</b>";
+            document.getElementById("yetiskin").innerHTML = "<b>ÇIKABİLİRSİNİZ</b>";
         }
     }
 

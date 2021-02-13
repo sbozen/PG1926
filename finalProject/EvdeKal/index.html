@@ -9,11 +9,33 @@
 </head>
 
 <body onload="dijitalSaat();">
-
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/serumm.png" class="d-block w-100" alt="asi">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/drr.png" class="d-block w-100" alt="doktor">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/doktorr.png" class="d-block w-100" alt="rontgen">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <div class="zemin">
-        <table class="tabBlok" align="center" cellspacing="0" cellpadding="0" border="0">
+        <table class="tabBlok" text-align="center" cellspacing="0" cellpadding="0">
             <h1 id="gun">
-                <h2 <tr class="dijitalSaat">
+                <tr class="dijitalSaat">
                     <td class="saat" id="dt"></td>
                     <td>
                         <table cellpadding="0" cellspacing="0" border="0">
@@ -22,7 +44,7 @@
                             </tr>
                         </table>
                     </td>
-                    </tr>
+                </tr>
         </table>
     </div>
     <div class="container">
